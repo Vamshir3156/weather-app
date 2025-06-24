@@ -1,0 +1,49 @@
+.weatherContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input {
+  padding: 0.8rem 1.2rem;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  width: 240px;
+}
+
+.button {
+  padding: 0.8rem 1.2rem;
+  background-color: #2563eb;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #1e3a8a;
+}
+
+.result {
+  margin-top: 2rem;
+  text-align: center;
+  background: #ffffff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+}
+
+.result h2 {
+  margin: 0;
+  color: #111827;
+}
+
+.result p {
+  font-size: 1.2rem;
+  color: #374151;
+  margin: 0.5rem 0;
+}
